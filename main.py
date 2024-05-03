@@ -227,7 +227,7 @@ class MapClass(tk.Tk):
 
 
         # if(self.zoom>1.5):
-        if(self.zoom>1.5):
+        if(self.zoom>1):
                 # Limit the grid to the area covered by the image
             grid_width = int(self.map_width_cells * self.pixels_per_cell)
             grid_height = int(self.map_height_cells * self.pixels_per_cell)
