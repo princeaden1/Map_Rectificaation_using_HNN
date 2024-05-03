@@ -447,7 +447,7 @@ def calculate_similarity(pattern1, pattern2):
 def main(self):
     # Load and preprocess template images
     template_paths = ["temp/h_w.jpg", "temp/ver_white.jpg", "temp/hor.jpg", "temp/ver.jpg", "temp/bc.png"]
-    target_size = (3, 3)  # Desired size for all templates
+    target_size = (2, 2)  # Desired size for all templates
     templates = load_and_preprocess_templates(template_paths, target_size)
 
     # Create Hopfield network and train with templates
